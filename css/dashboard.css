@@ -1,0 +1,171 @@
+/* Dashboard Layout */
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.dashboard-content {
+    flex: 1;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.dashboard-header {
+    background-color: #fff;
+    border-bottom: 1px solid #e9ecef;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.dashboard-main {
+    padding: 1.5rem;
+}
+
+/* Responsive Grid */
+.row {
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+
+.col-lg-4, .col-lg-8, .col-md-4, .col-md-8 {
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+/* Card Styles */
+.card {
+    margin-bottom: 1.5rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+/* Table Responsive */
+.table-responsive {
+    margin: 0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+/* Quick Actions */
+.quick-actions .btn {
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+}
+
+/* Blood Type Badge */
+.blood-type-badge {
+    width: 100px;
+    height: 100px;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.blood-type-badge span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991.98px) {
+    .dashboard-container {
+        position: relative;
+    }
+
+    .sidebar {
+        position: fixed;
+        left: -280px;
+        top: 0;
+        bottom: 0;
+        width: 280px;
+        z-index: 1030;
+        transition: left 0.3s ease-in-out;
+        background-color: #fff;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    }
+
+    .sidebar.show {
+        left: 0;
+    }
+
+    .dashboard-content {
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .dashboard-main {
+        padding: 1rem;
+    }
+
+    .blood-type-badge {
+        width: 80px;
+        height: 80px;
+        margin-top: 1rem;
+    }
+
+    .blood-type-badge span {
+        font-size: 1.5rem;
+    }
+
+    .table-responsive {
+        margin: 0 -1rem;
+        width: calc(100% + 2rem);
+    }
+
+    .card-body {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .dashboard-header .h4 {
+        font-size: 1.25rem;
+    }
+
+    .quick-actions .btn {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.875rem;
+    }
+    
+    .card-header {
+        padding: 0.75rem 1rem;
+    }
+
+    .table td, .table th {
+        padding: 0.5rem;
+    }
+}
+
+/* Utility Classes */
+.z-3 {
+    z-index: 1030;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9ecef;
+    border-radius: 50%;
+}
+
+.avatar i {
+    font-size: 1.25rem;
+    color: #6c757d;
+}

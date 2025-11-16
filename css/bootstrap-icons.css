@@ -1,0 +1,213 @@
+/* Bootstrap Icons - Offline Version with Fallbacks */
+@font-face {
+  font-family: "bootstrap-icons";
+  src: url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/fonts/bootstrap-icons.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/fonts/bootstrap-icons.woff") format("woff");
+  font-display: block;
+}
+
+/* Fallback for when CDN is not available */
+@font-face {
+  font-family: "bootstrap-icons-fallback";
+  src: local("Segoe UI Symbol"), local("Apple Color Emoji"), local("Noto Color Emoji");
+  font-display: swap;
+}
+
+/* Fallback font stack for offline use */
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  font-family: "bootstrap-icons", "Segoe UI Symbol", "Apple Color Emoji", "Noto Color Emoji", sans-serif !important;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal !important;
+  line-height: 1;
+  text-transform: none;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Comprehensive Bootstrap Icons for Blood Bank Portal */
+
+/* Navigation & UI Icons */
+.bi-plus-circle::before { content: "\f4fe"; }
+.bi-plus::before { content: "\f4fd"; }
+.bi-dash-circle::before { content: "\f1d0"; }
+.bi-arrow-right::before { content: "\f138"; }
+.bi-arrow-left::before { content: "\f12f"; }
+.bi-arrow-clockwise::before { content: "\f12e"; }
+.bi-chevron-down::before { content: "\f282"; }
+.bi-chevron-up::before { content: "\f283"; }
+.bi-chevron-left::before { content: "\f284"; }
+.bi-chevron-right::before { content: "\f285"; }
+
+/* Status & Actions */
+.bi-check-circle::before { content: "\f26a"; }
+.bi-x-circle::before { content: "\f62a"; }
+.bi-check::before { content: "\f26b"; }
+.bi-x::before { content: "\f62b"; }
+.bi-info-circle::before { content: "\f431"; }
+.bi-exclamation-triangle::before { content: "\f33a"; }
+.bi-exclamation-triangle-fill::before { content: "\f33a"; }
+.bi-warning::before { content: "\f5b7"; }
+
+/* People & Users */
+.bi-person::before { content: "\f4a9"; }
+.bi-person-circle::before { content: "\f4aa"; }
+.bi-people::before { content: "\f4a7"; }
+.bi-people-fill::before { content: "\f4a8"; }
+
+/* Medical & Blood Related */
+.bi-droplet::before { content: "\f1df"; }
+.bi-droplet-fill::before { content: "\f1e0"; }
+.bi-hospital::before { content: "\f2c8"; }
+.bi-clipboard2-pulse::before { content: "\f1b9"; }
+.bi-clipboard2-check::before { content: "\f1ba"; }
+.bi-clipboard-check::before { content: "\f1b8"; }
+.bi-clipboard-data::before { content: "\f1bb"; }
+
+/* Calendar & Time */
+.bi-calendar::before { content: "\f1a1"; }
+.bi-calendar-event::before { content: "\f1a5"; }
+.bi-calendar-check::before { content: "\f1a2"; }
+.bi-clock::before { content: "\f1a8"; }
+.bi-clock-history::before { content: "\f1a8"; }
+
+/* Files & Documents */
+.bi-file-earmark::before { content: "\f2b2"; }
+.bi-file-earmark-text::before { content: "\f2b3"; }
+.bi-file-earmark-medical::before { content: "\f2b4"; }
+.bi-download::before { content: "\f1d8"; }
+.bi-upload::before { content: "\f5b6"; }
+.bi-printer::before { content: "\f4d7"; }
+
+/* Interface Elements */
+.bi-eye::before { content: "\f341"; }
+.bi-eye-slash::before { content: "\f342"; }
+.bi-pencil::before { content: "\f4cb"; }
+.bi-pencil-square::before { content: "\f4cc"; }
+.bi-trash::before { content: "\f5b1"; }
+.bi-gear::before { content: "\f2c2"; }
+.bi-gear-fill::before { content: "\f2c2"; }
+.bi-tools::before { content: "\f5b4"; }
+
+/* Data & Tables */
+.bi-table::before { content: "\f5a8"; }
+.bi-list::before { content: "\f3d5"; }
+.bi-grid::before { content: "\f2c5"; }
+.bi-card-list::before { content: "\f1b5"; }
+.bi-funnel::before { content: "\f2c4"; }
+.bi-sort::before { content: "\f5a0"; }
+.bi-search::before { content: "\f52b"; }
+.bi-filter::before { content: "\f2c4"; }
+
+/* Communication */
+.bi-bell::before { content: "\f0f3"; }
+.bi-bell-fill::before { content: "\f0f3"; }
+.bi-envelope::before { content: "\f2f0"; }
+.bi-envelope-fill::before { content: "\f2f1"; }
+.bi-telephone::before { content: "\f5a9"; }
+.bi-telephone-fill::before { content: "\f5aa"; }
+.bi-megaphone::before { content: "\f3d4"; }
+
+/* Location & Building */
+.bi-geo-alt::before { content: "\f2c3"; }
+.bi-geo-alt-fill::before { content: "\f2c4"; }
+.bi-buildings::before { content: "\f0e9"; }
+.bi-house::before { content: "\f2c9"; }
+.bi-house-fill::before { content: "\f2ca"; }
+
+/* Security & Access */
+.bi-shield-lock::before { content: "\f52a"; }
+.bi-shield-check::before { content: "\f529"; }
+.bi-lock::before { content: "\f3d6"; }
+.bi-lock-fill::before { content: "\f3d6"; }
+.bi-unlock::before { content: "\f5b8"; }
+.bi-unlock-fill::before { content: "\f5b8"; }
+
+/* Navigation & Movement */
+.bi-box-arrow-right::before { content: "\f0f2"; }
+.bi-box-arrow-left::before { content: "\f0f1"; }
+.bi-arrow-up::before { content: "\f13a"; }
+.bi-arrow-down::before { content: "\f13b"; }
+
+/* Charts & Analytics */
+.bi-graph-up::before { content: "\f2c6"; }
+.bi-graph-down::before { content: "\f2c7"; }
+.bi-pie-chart::before { content: "\f4d0"; }
+.bi-bar-chart::before { content: "\f0e7"; }
+.bi-speedometer2::before { content: "\f5a1"; }
+.bi-activity::before { content: "\f0e6"; }
+
+/* Social & External */
+.bi-facebook::before { content: "\f2c5"; }
+.bi-twitter::before { content: "\f5b5"; }
+.bi-instagram::before { content: "\f431"; }
+.bi-linkedin::before { content: "\f3d4"; }
+.bi-whatsapp::before { content: "\f5b9"; }
+
+/* Additional Icons */
+.bi-star::before { content: "\f588"; }
+.bi-star-fill::before { content: "\f589"; }
+.bi-heart::before { content: "\f2c1"; }
+.bi-heart-fill::before { content: "\f2c2"; }
+.bi-heart-pulse::before { content: "\f2c0"; }
+.bi-box::before { content: "\f0e8"; }
+.bi-three-dots::before { content: "\f5a2"; }
+.bi-three-dots-vertical::before { content: "\f5a3"; }
+.bi-list-ul::before { content: "\f3d7"; }
+.bi-list-ol::before { content: "\f3d8"; }
+
+/* Login & User Icons */
+.bi-person-plus::before { content: "\f4ab"; }
+.bi-person-plus-fill::before { content: "\f4ac"; }
+.bi-box-arrow-in-right::before { content: "\f0f2"; }
+.bi-box-arrow-in-left::before { content: "\f0f1"; }
+.bi-box-arrow-left::before { content: "\f0f1"; }
+
+/* Calendar Icons */
+.bi-calendar-x::before { content: "\f1a6"; }
+.bi-calendar-x-fill::before { content: "\f1a7"; }
+.bi-calendar-plus::before { content: "\f1a3"; }
+.bi-calendar-plus-fill::before { content: "\f1a4"; }
+
+/* Link Icons */
+.bi-link-45deg::before { content: "\f3d0"; }
+
+/* Activity & Health */
+.bi-heart-pulse-fill::before { content: "\f2bf"; }
+
+/* Fallback Unicode Symbols for Offline Use */
+@media (prefers-reduced-data: reduce) {
+  .bi-plus-circle::before { content: "⊕"; }
+  .bi-plus::before { content: "+"; }
+  .bi-check-circle::before { content: "✓"; }
+  .bi-x-circle::before { content: "✗"; }
+  .bi-person::before { content: "👤"; }
+  .bi-people-fill::before { content: "👥"; }
+  .bi-droplet-fill::before { content: "🩸"; }
+  .bi-hospital::before { content: "🏥"; }
+  .bi-calendar-event::before { content: "📅"; }
+  .bi-clock::before { content: "🕐"; }
+  .bi-envelope::before { content: "✉"; }
+  .bi-telephone::before { content: "☎"; }
+  .bi-geo-alt::before { content: "📍"; }
+  .bi-buildings::before { content: "🏢"; }
+  .bi-bell::before { content: "🔔"; }
+  .bi-eye::before { content: "👁"; }
+  .bi-pencil::before { content: "✏"; }
+  .bi-trash::before { content: "🗑"; }
+  .bi-search::before { content: "🔍"; }
+  .bi-download::before { content: "⬇"; }
+  .bi-upload::before { content: "⬆"; }
+  .bi-printer::before { content: "🖨"; }
+  .bi-gear::before { content: "⚙"; }
+  .bi-shield-lock::before { content: "🔒"; }
+  .bi-arrow-right::before { content: "→"; }
+  .bi-arrow-left::before { content: "←"; }
+  .bi-arrow-up::before { content: "↑"; }
+  .bi-arrow-down::before { content: "↓"; }
+  .bi-star::before { content: "★"; }
+  .bi-heart::before { content: "♡"; }
+  .bi-heart-fill::before { content: "♥"; }
+}

@@ -1,0 +1,105 @@
+/* Custom CSS for Blood Bank Portal */
+
+/* Blood type badges */
+.blood-type-badge {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #dc3545;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+/* Background colors */
+.bg-primary-light {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dc3545;
+}
+
+/* Chart container */
+.chart-container {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+/* Dashboard cards */
+.dashboard-card {
+  transition: transform 0.3s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Custom gradient background */
+.bg-gradient-to-r {
+  background: linear-gradient(to right, var(--bs-danger), #721c24);
+}
+
+/* Custom styling for tabs */
+.nav-tabs .nav-link.active {
+  color: #dc3545;
+  border-bottom: 2px solid #dc3545;
+}
+
+.nav-tabs .nav-link {
+  color: #495057;
+}
+
+/* Custom styling for buttons */
+.btn-danger {
+  background-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+/* Custom styling for tables */
+.table-hover tbody tr:hover {
+  background-color: rgba(220, 53, 69, 0.05);
+}
+
+/* Custom styling for modals */
+.modal-header {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dc3545;
+}
+
+/* Custom styling for alerts */
+.alert-danger {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+}
+
+/* Custom styling for forms */
+.form-control:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
+}
+
+/* Custom styling for footer */
+footer {
+  background-color: #343a40;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+

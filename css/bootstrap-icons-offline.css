@@ -1,0 +1,182 @@
+/* Bootstrap Icons - Offline Fallback CSS */
+/* This file provides Unicode fallbacks for when Bootstrap Icons font is not available */
+
+/* Base icon styles with fallback fonts */
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  font-family: "Segoe UI Symbol", "Apple Color Emoji", "Noto Color Emoji", "Segoe UI", sans-serif !important;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal !important;
+  line-height: 1;
+  text-transform: none;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Navigation & UI Icons */
+.bi-plus-circle::before { content: "⊕"; }
+.bi-plus::before { content: "+"; }
+.bi-dash-circle::before { content: "⊖"; }
+.bi-arrow-right::before { content: "→"; }
+.bi-arrow-left::before { content: "←"; }
+.bi-arrow-clockwise::before { content: "↻"; }
+.bi-chevron-down::before { content: "⌄"; }
+.bi-chevron-up::before { content: "⌃"; }
+.bi-chevron-left::before { content: "⌃"; }
+.bi-chevron-right::before { content: "⌃"; }
+
+/* Status & Actions */
+.bi-check-circle::before { content: "✓"; }
+.bi-x-circle::before { content: "✗"; }
+.bi-check::before { content: "✓"; }
+.bi-x::before { content: "✗"; }
+.bi-info-circle::before { content: "ℹ"; }
+.bi-exclamation-triangle::before { content: "⚠"; }
+.bi-exclamation-triangle-fill::before { content: "⚠"; }
+.bi-warning::before { content: "⚠"; }
+
+/* People & Users */
+.bi-person::before { content: "👤"; }
+.bi-person-circle::before { content: "👤"; }
+.bi-people::before { content: "👥"; }
+.bi-people-fill::before { content: "👥"; }
+.bi-person-plus::before { content: "➕"; }
+.bi-person-plus-fill::before { content: "➕"; }
+
+/* Medical & Blood Related */
+.bi-droplet::before { content: "💧"; }
+.bi-droplet-fill::before { content: "🩸"; }
+.bi-hospital::before { content: "🏥"; }
+.bi-clipboard2-pulse::before { content: "📋"; }
+.bi-clipboard2-check::before { content: "📋"; }
+.bi-clipboard-check::before { content: "📋"; }
+.bi-clipboard-data::before { content: "📊"; }
+.bi-heart-pulse::before { content: "❤️"; }
+.bi-heart-pulse-fill::before { content: "❤️"; }
+
+/* Calendar & Time */
+.bi-calendar::before { content: "📅"; }
+.bi-calendar-event::before { content: "📅"; }
+.bi-calendar-check::before { content: "✅"; }
+.bi-calendar-x::before { content: "❌"; }
+.bi-calendar-plus::before { content: "➕"; }
+.bi-clock::before { content: "🕐"; }
+.bi-clock-history::before { content: "🕐"; }
+
+/* Files & Documents */
+.bi-file-earmark::before { content: "📁"; }
+.bi-file-earmark-text::before { content: "📄"; }
+.bi-file-earmark-medical::before { content: "📄"; }
+.bi-download::before { content: "⬇"; }
+.bi-upload::before { content: "⬆"; }
+.bi-printer::before { content: "🖨"; }
+
+/* Interface Elements */
+.bi-eye::before { content: "👁"; }
+.bi-eye-slash::before { content: "👁"; }
+.bi-pencil::before { content: "✏"; }
+.bi-pencil-square::before { content: "✏"; }
+.bi-trash::before { content: "🗑"; }
+.bi-gear::before { content: "⚙"; }
+.bi-gear-fill::before { content: "⚙"; }
+.bi-tools::before { content: "🔧"; }
+
+/* Data & Tables */
+.bi-table::before { content: "⊞"; }
+.bi-list::before { content: "☰"; }
+.bi-grid::before { content: "⊞"; }
+.bi-card-list::before { content: "📋"; }
+.bi-funnel::before { content: "🔽"; }
+.bi-sort::before { content: "↕"; }
+.bi-search::before { content: "🔍"; }
+.bi-filter::before { content: "🔽"; }
+
+/* Communication */
+.bi-bell::before { content: "🔔"; }
+.bi-bell-fill::before { content: "🔔"; }
+.bi-envelope::before { content: "✉"; }
+.bi-envelope-fill::before { content: "✉"; }
+.bi-telephone::before { content: "☎"; }
+.bi-telephone-fill::before { content: "☎"; }
+.bi-megaphone::before { content: "📢"; }
+
+/* Location & Building */
+.bi-geo-alt::before { content: "📍"; }
+.bi-geo-alt-fill::before { content: "📍"; }
+.bi-buildings::before { content: "🏢"; }
+.bi-house::before { content: "🏠"; }
+.bi-house-fill::before { content: "🏠"; }
+
+/* Security & Access */
+.bi-shield-lock::before { content: "🔒"; }
+.bi-shield-check::before { content: "🛡"; }
+.bi-lock::before { content: "🔒"; }
+.bi-lock-fill::before { content: "🔒"; }
+.bi-unlock::before { content: "🔓"; }
+.bi-unlock-fill::before { content: "🔓"; }
+
+/* Navigation & Movement */
+.bi-box-arrow-right::before { content: "↗"; }
+.bi-box-arrow-in-right::before { content: "→"; }
+.bi-box-arrow-left::before { content: "↖"; }
+.bi-box-arrow-in-left::before { content: "←"; }
+.bi-arrow-up::before { content: "↑"; }
+.bi-arrow-down::before { content: "↓"; }
+
+/* Charts & Analytics */
+.bi-graph-up::before { content: "📈"; }
+.bi-graph-down::before { content: "📉"; }
+.bi-pie-chart::before { content: "○"; }
+.bi-bar-chart::before { content: "📊"; }
+.bi-speedometer2::before { content: "⏱"; }
+.bi-activity::before { content: "📈"; }
+
+/* Social & External */
+.bi-facebook::before { content: "f"; }
+.bi-twitter::before { content: "t"; }
+.bi-instagram::before { content: "i"; }
+.bi-linkedin::before { content: "in"; }
+.bi-whatsapp::before { content: "w"; }
+
+/* Additional Icons */
+.bi-star::before { content: "★"; }
+.bi-star-fill::before { content: "★"; }
+.bi-heart::before { content: "♡"; }
+.bi-heart-fill::before { content: "♥"; }
+.bi-box::before { content: "📦"; }
+.bi-three-dots::before { content: "⋯"; }
+.bi-three-dots-vertical::before { content: "⋮"; }
+.bi-list-ul::before { content: "☰"; }
+.bi-list-ol::before { content: "☰"; }
+.bi-link-45deg::before { content: "🔗"; }
+
+/* Special styling for better visibility */
+.bi-droplet-fill::before,
+.bi-heart-fill::before,
+.bi-star-fill::before {
+  color: #dc3545; /* Red color for filled icons */
+}
+
+.bi-check-circle::before,
+.bi-check::before {
+  color: #28a745; /* Green color for success icons */
+}
+
+.bi-x-circle::before,
+.bi-x::before {
+  color: #dc3545; /* Red color for error icons */
+}
+
+.bi-info-circle::before {
+  color: #17a2b8; /* Blue color for info icons */
+}
+
+.bi-warning::before,
+.bi-exclamation-triangle::before,
+.bi-exclamation-triangle-fill::before {
+  color: #ffc107; /* Yellow color for warning icons */
+}

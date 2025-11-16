@@ -1,0 +1,356 @@
+/* Local Icons for Offline Use */
+@font-face {
+  font-family: "local-icons";
+  src: url("data:font/woff2;base64,") format("woff2");
+  font-display: block;
+}
+
+/* Fallback to Unicode symbols for offline use */
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  font-family: "local-icons", "Segoe UI Symbol", "Apple Color Emoji", "Noto Color Emoji", sans-serif !important;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal !important;
+  line-height: 1;
+  text-transform: none;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Unicode fallbacks for common icons */
+.bi-plus-circle::before { content: "⊕"; }
+.bi-download::before { content: "⬇"; }
+.bi-exclamation-triangle-fill::before { content: "⚠"; }
+.bi-eye::before { content: "👁"; }
+.bi-plus::before { content: "+"; }
+.bi-table::before { content: "⊞"; }
+.bi-funnel::before { content: "🔽"; }
+.bi-pencil::before { content: "✏"; }
+.bi-dash-circle::before { content: "⊖"; }
+.bi-printer::before { content: "🖨"; }
+.bi-speedometer2::before { content: "⏱"; }
+.bi-box::before { content: "📦"; }
+.bi-calendar-event::before { content: "📅"; }
+.bi-calendar-check::before { content: "✅"; }
+.bi-clipboard-check::before { content: "📋"; }
+.bi-file-earmark-text::before { content: "📄"; }
+.bi-tools::before { content: "🔧"; }
+.bi-gear::before { content: "⚙"; }
+.bi-hospital::before { content: "🏥"; }
+.bi-droplet-fill::before { content: "🩸"; }
+.bi-people-fill::before { content: "👥"; }
+.bi-person::before { content: "👤"; }
+.bi-megaphone::before { content: "📢"; }
+.bi-shield-lock::before { content: "🔒"; }
+.bi-buildings::before { content: "🏢"; }
+.bi-box-arrow-right::before { content: "↗"; }
+.bi-droplet::before { content: "💧"; }
+.bi-clock-history::before { content: "🕐"; }
+.bi-file-earmark::before { content: "📁"; }
+.bi-clipboard2-pulse::before { content: "📋"; }
+.bi-calendar::before { content: "📅"; }
+.bi-arrow-right::before { content: "→"; }
+.bi-arrow-left::before { content: "←"; }
+.bi-check-circle::before { content: "✓"; }
+.bi-x-circle::before { content: "✗"; }
+.bi-info-circle::before { content: "ℹ"; }
+.bi-warning::before { content: "⚠"; }
+.bi-star::before { content: "★"; }
+.bi-star-fill::before { content: "★"; }
+.bi-heart::before { content: "♡"; }
+.bi-heart-fill::before { content: "♥"; }
+.bi-telephone::before { content: "☎"; }
+.bi-envelope::before { content: "✉"; }
+.bi-geo-alt::before { content: "📍"; }
+.bi-geo-alt-fill::before { content: "📍"; }
+.bi-telephone-fill::before { content: "☎"; }
+.bi-envelope-fill::before { content: "✉"; }
+.bi-facebook::before { content: "f"; }
+.bi-twitter::before { content: "t"; }
+.bi-instagram::before { content: "i"; }
+.bi-linkedin::before { content: "in"; }
+
+/* Additional missing icons for dashboard */
+.bi-bell::before { content: "🔔"; }
+.bi-bell-fill::before { content: "🔔"; }
+.bi-three-dots::before { content: "⋯"; }
+.bi-three-dots-vertical::before { content: "⋮"; }
+.bi-check::before { content: "✓"; }
+.bi-check-all::before { content: "✓✓"; }
+.bi-x::before { content: "✗"; }
+.bi-trash::before { content: "🗑"; }
+.bi-search::before { content: "🔍"; }
+.bi-filter::before { content: "🔽"; }
+.bi-sort::before { content: "↕"; }
+.bi-list::before { content: "☰"; }
+.bi-grid::before { content: "⊞"; }
+.bi-card-list::before { content: "📋"; }
+.bi-graph-up::before { content: "📈"; }
+.bi-graph-down::before { content: "📉"; }
+.bi-pie-chart::before { content: "○"; }
+.bi-bar-chart::before { content: "📊"; }
+.bi-activity::before { content: "📈"; }
+.bi-pulse::before { content: "💓"; }
+.bi-heart-pulse::before { content: "💗"; }
+.bi-eyedropper::before { content: "💉"; }
+.bi-syringe::before { content: "💉"; }
+.bi-stethoscope::before { content: "🩺"; }
+.bi-clipboard-data::before { content: "📊"; }
+.bi-clipboard-plus::before { content: "📋+"; }
+.bi-journal::before { content: "📖"; }
+.bi-journal-text::before { content: "📝"; }
+.bi-book::before { content: "📚"; }
+.bi-bookmark::before { content: "🔖"; }
+.bi-tag::before { content: "🏷"; }
+.bi-flag::before { content: "🚩"; }
+.bi-exclamation::before { content: "!"; }
+.bi-exclamation-circle::before { content: "⚠"; }
+.bi-question::before { content: "?"; }
+.bi-question-circle::before { content: "?"; }
+.bi-info::before { content: "ℹ"; }
+.bi-lightbulb::before { content: "💡"; }
+.bi-brightness-high::before { content: "☀"; }
+.bi-moon::before { content: "🌙"; }
+.bi-sun::before { content: "☀"; }
+.bi-cloud::before { content: "☁"; }
+
+/* Dashboard specific missing icons */
+.bi-calendar3::before { content: "📅"; }
+.bi-clipboard-pulse::before { content: "📋💓"; }
+.bi-check2-circle::before { content: "✅"; }
+.bi-hourglass-split::before { content: "⏳"; }
+.bi-box-seam::before { content: "📦"; }
+.bi-lightning-charge::before { content: "⚡"; }
+.bi-list-ul::before { content: "📝"; }
+.bi-person-fill::before { content: "👤"; }
+.bi-inbox::before { content: "📥"; }
+.bi-arrow-right::before { content: "→"; }
+.bi-arrow-left::before { content: "←"; }
+.bi-arrow-up::before { content: "↑"; }
+.bi-arrow-down::before { content: "↓"; }
+.bi-arrow-up-right::before { content: "↗"; }
+.bi-arrow-down-right::before { content: "↘"; }
+.bi-arrow-up-left::before { content: "↖"; }
+.bi-arrow-down-left::before { content: "↙"; }
+.bi-chevron-right::before { content: "›"; }
+.bi-chevron-left::before { content: "‹"; }
+.bi-chevron-up::before { content: "⌃"; }
+.bi-chevron-down::before { content: "⌄"; }
+.bi-chevron-double-right::before { content: "»"; }
+.bi-chevron-double-left::before { content: "«"; }
+.bi-chevron-double-up::before { content: "⌃⌃"; }
+.bi-chevron-double-down::before { content: "⌄⌄"; }
+.bi-caret-right::before { content: "▶"; }
+.bi-caret-left::before { content: "◀"; }
+.bi-caret-up::before { content: "▲"; }
+.bi-caret-down::before { content: "▼"; }
+.bi-play::before { content: "▶"; }
+.bi-pause::before { content: "⏸"; }
+.bi-stop::before { content: "⏹"; }
+.bi-skip-start::before { content: "⏮"; }
+.bi-skip-end::before { content: "⏭"; }
+.bi-record::before { content: "⏺"; }
+.bi-eject::before { content: "⏏"; }
+.bi-volume-up::before { content: "🔊"; }
+.bi-volume-down::before { content: "🔉"; }
+.bi-volume-mute::before { content: "🔇"; }
+.bi-volume-off::before { content: "🔇"; }
+.bi-mic::before { content: "🎤"; }
+.bi-mic-mute::before { content: "🎤❌"; }
+.bi-camera::before { content: "📷"; }
+.bi-camera-video::before { content: "📹"; }
+.bi-camera-video-off::before { content: "📹❌"; }
+.bi-image::before { content: "🖼"; }
+.bi-images::before { content: "🖼🖼"; }
+.bi-file-image::before { content: "🖼"; }
+.bi-file-music::before { content: "🎵"; }
+.bi-file-video::before { content: "🎬"; }
+.bi-file-pdf::before { content: "📄"; }
+.bi-file-word::before { content: "📝"; }
+.bi-file-powerpoint::before { content: "📊"; }
+.bi-file-zip::before { content: "📦"; }
+.bi-file-text::before { content: "📄"; }
+.bi-file-binary::before { content: "💾"; }
+.bi-file-code::before { content: "💻"; }
+.bi-file-font::before { content: "🔤"; }
+.bi-file-lock::before { content: "🔒"; }
+.bi-file-lock2::before { content: "🔒🔒"; }
+.bi-file-shield::before { content: "🛡"; }
+.bi-file-shield2::before { content: "🛡🛡"; }
+.bi-file-check::before { content: "✅"; }
+.bi-file-x::before { content: "❌"; }
+.bi-file-plus::before { content: "➕"; }
+.bi-file-minus::before { content: "➖"; }
+.bi-file-earmark::before { content: "📁"; }
+.bi-file-earmark-text::before { content: "📄"; }
+.bi-file-earmark-code::before { content: "💻"; }
+.bi-file-earmark-image::before { content: "🖼"; }
+.bi-file-earmark-music::before { content: "🎵"; }
+.bi-file-earmark-video::before { content: "🎬"; }
+.bi-file-earmark-pdf::before { content: "📄"; }
+.bi-file-earmark-word::before { content: "📝"; }
+.bi-file-earmark-powerpoint::before { content: "📊"; }
+.bi-file-earmark-zip::before { content: "📦"; }
+.bi-file-earmark-binary::before { content: "💾"; }
+.bi-file-earmark-code::before { content: "💻"; }
+.bi-file-earmark-font::before { content: "🔤"; }
+.bi-file-earmark-lock::before { content: "🔒"; }
+.bi-file-earmark-lock2::before { content: "🔒🔒"; }
+.bi-file-earmark-shield::before { content: "🛡"; }
+.bi-file-earmark-shield2::before { content: "🛡🛡"; }
+.bi-file-earmark-check::before { content: "✅"; }
+.bi-file-earmark-x::before { content: "❌"; }
+.bi-file-earmark-plus::before { content: "➕"; }
+.bi-file-earmark-minus::before { content: "➖"; }
+
+/* Additional common missing icons */
+.bi-circle::before { content: "○"; }
+.bi-circle-fill::before { content: "●"; }
+.bi-dot::before { content: "•"; }
+.bi-square::before { content: "□"; }
+.bi-square-fill::before { content: "■"; }
+.bi-triangle::before { content: "△"; }
+.bi-triangle-fill::before { content: "▲"; }
+.bi-diamond::before { content: "◇"; }
+.bi-diamond-fill::before { content: "◆"; }
+.bi-hexagon::before { content: "⬡"; }
+.bi-hexagon-fill::before { content: "⬢"; }
+.bi-octagon::before { content: "⬡"; }
+.bi-octagon-fill::before { content: "⬢"; }
+.bi-pentagon::before { content: "⬟"; }
+.bi-pentagon-fill::before { content: "⬟"; }
+.bi-star::before { content: "★"; }
+.bi-star-fill::before { content: "★"; }
+.bi-star-half::before { content: "⭐"; }
+.bi-heart::before { content: "♡"; }
+.bi-heart-fill::before { content: "♥"; }
+.bi-heart-half::before { content: "💔"; }
+.bi-hand-thumbs-up::before { content: "👍"; }
+.bi-hand-thumbs-down::before { content: "👎"; }
+.bi-hand-thumbs-up-fill::before { content: "👍"; }
+.bi-hand-thumbs-down-fill::before { content: "👎"; }
+.bi-emoji-smile::before { content: "😊"; }
+.bi-emoji-frown::before { content: "😞"; }
+.bi-emoji-neutral::before { content: "😐"; }
+.bi-emoji-angry::before { content: "😠"; }
+.bi-emoji-heart-eyes::before { content: "😍"; }
+.bi-emoji-wink::before { content: "😉"; }
+.bi-emoji-laughing::before { content: "😂"; }
+.bi-emoji-dizzy::before { content: "😵"; }
+.bi-emoji-expressionless::before { content: "😑"; }
+.bi-emoji-sunglasses::before { content: "😎"; }
+.bi-emoji-kiss::before { content: "😘"; }
+.bi-emoji-tongue::before { content: "😛"; }
+.bi-emoji-wink-fill::before { content: "😉"; }
+.bi-emoji-laughing-fill::before { content: "😂"; }
+.bi-emoji-dizzy-fill::before { content: "😵"; }
+.bi-emoji-expressionless-fill::before { content: "😑"; }
+.bi-emoji-sunglasses-fill::before { content: "😎"; }
+.bi-emoji-kiss-fill::before { content: "😘"; }
+.bi-emoji-tongue-fill::before { content: "😛"; }
+.bi-dash::before { content: "—"; }
+.bi-plus-lg::before { content: "+"; }
+.bi-dash-lg::before { content: "—"; }
+.bi-x-lg::before { content: "✗"; }
+.bi-arrow-up::before { content: "↑"; }
+.bi-arrow-down::before { content: "↓"; }
+.bi-arrow-left::before { content: "←"; }
+.bi-arrow-right::before { content: "→"; }
+.bi-chevron-up::before { content: "⌃"; }
+.bi-chevron-down::before { content: "⌄"; }
+.bi-chevron-left::before { content: "⌃"; }
+.bi-chevron-right::before { content: "⌃"; }
+.bi-caret-up::before { content: "⌃"; }
+.bi-caret-down::before { content: "⌄"; }
+.bi-caret-left::before { content: "⌃"; }
+.bi-caret-right::before { content: "⌃"; }
+.bi-arrow-up-right::before { content: "↗"; }
+.bi-arrow-down-right::before { content: "↘"; }
+.bi-arrow-down-left::before { content: "↙"; }
+.bi-arrow-up-left::before { content: "↖"; }
+.bi-arrow-repeat::before { content: "↻"; }
+.bi-arrow-clockwise::before { content: "↻"; }
+.bi-arrow-counterclockwise::before { content: "↺"; }
+.bi-arrow-return-left::before { content: "↩"; }
+.bi-arrow-return-right::before { content: "↪"; }
+.bi-arrow-90deg-up::before { content: "↑"; }
+.bi-arrow-90deg-down::before { content: "↓"; }
+.bi-arrow-90deg-left::before { content: "←"; }
+.bi-arrow-90deg-right::before { content: "→"; }
+.bi-arrow-up-short::before { content: "↑"; }
+.bi-arrow-down-short::before { content: "↓"; }
+.bi-arrow-left-short::before { content: "←"; }
+.bi-arrow-right-short::before { content: "→"; }
+.bi-arrow-up-square::before { content: "↑□"; }
+.bi-arrow-down-square::before { content: "↓□"; }
+.bi-arrow-left-square::before { content: "←□"; }
+.bi-arrow-right-square::before { content: "→□"; }
+.bi-arrow-up-circle::before { content: "↑○"; }
+.bi-arrow-down-circle::before { content: "↓○"; }
+.bi-arrow-left-circle::before { content: "←○"; }
+.bi-arrow-right-circle::before { content: "→○"; }
+.bi-arrow-up-square-fill::before { content: "↑■"; }
+.bi-arrow-down-square-fill::before { content: "↓■"; }
+.bi-arrow-left-square-fill::before { content: "←■"; }
+.bi-arrow-right-square-fill::before { content: "→■"; }
+.bi-arrow-up-circle-fill::before { content: "↑●"; }
+.bi-arrow-down-circle-fill::before { content: "↓●"; }
+.bi-arrow-left-circle-fill::before { content: "←●"; }
+.bi-arrow-right-circle-fill::before { content: "→●"; }
+.bi-arrow-up-left-square::before { content: "↖□"; }
+.bi-arrow-up-right-square::before { content: "↗□"; }
+.bi-arrow-down-left-square::before { content: "↙□"; }
+.bi-arrow-down-right-square::before { content: "↘□"; }
+.bi-arrow-up-left-square-fill::before { content: "↖■"; }
+.bi-arrow-up-right-square-fill::before { content: "↗■"; }
+.bi-arrow-down-left-square-fill::before { content: "↙■"; }
+.bi-arrow-down-right-square-fill::before { content: "↘■"; }
+.bi-arrow-up-left-circle::before { content: "↖○"; }
+.bi-arrow-up-right-circle::before { content: "↗○"; }
+.bi-arrow-down-left-circle::before { content: "↙○"; }
+.bi-arrow-down-right-circle::before { content: "↘○"; }
+.bi-arrow-up-left-circle-fill::before { content: "↖●"; }
+.bi-arrow-up-right-circle-fill::before { content: "↗●"; }
+.bi-arrow-down-left-circle-fill::before { content: "↙●"; }
+.bi-arrow-down-right-circle-fill::before { content: "↘●"; }
+.bi-filetype-csv::before { content: "📊"; }
+.bi-file-excel::before { content: "📈"; }
+.bi-file-earmark-text::before { content: "📄"; }
+.bi-clipboard-check::before { content: "📋"; }
+.bi-calendar-check::before { content: "✅"; }
+.bi-calendar-event::before { content: "📅"; }
+.bi-speedometer2::before { content: "⏱"; }
+.bi-box::before { content: "📦"; }
+.bi-tools::before { content: "🔧"; }
+.bi-gear::before { content: "⚙"; }
+.bi-hospital::before { content: "🏥"; }
+.bi-droplet-fill::before { content: "🩸"; }
+.bi-people-fill::before { content: "👥"; }
+.bi-person::before { content: "👤"; }
+.bi-megaphone::before { content: "📢"; }
+.bi-shield-lock::before { content: "🔒"; }
+.bi-buildings::before { content: "🏢"; }
+.bi-box-arrow-right::before { content: "↗"; }
+.bi-droplet::before { content: "💧"; }
+.bi-clock-history::before { content: "🕐"; }
+.bi-file-earmark::before { content: "📁"; }
+.bi-clipboard2-pulse::before { content: "📋"; }
+.bi-calendar::before { content: "📅"; }
+.bi-arrow-right::before { content: "→"; }
+.bi-arrow-left::before { content: "←"; }
+.bi-check-circle::before { content: "✓"; }
+.bi-x-circle::before { content: "✗"; }
+.bi-info-circle::before { content: "ℹ"; }
+.bi-warning::before { content: "⚠"; }
+.bi-star::before { content: "★"; }
+.bi-star-fill::before { content: "★"; }
+.bi-heart::before { content: "♡"; }
+.bi-heart-fill::before { content: "♥"; }
+.bi-telephone::before { content: "☎"; }
+.bi-envelope::before { content: "✉"; }
+.bi-geo-alt::before { content: "📍"; }
+.bi-geo-alt-fill::before { content: "📍"; }
+.bi-telephone-fill::before { content: "☎"; }
+.bi-envelope-fill::before { content: "✉"; }
