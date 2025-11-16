@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test:rc": "cypress run --spec \"cypress/e2e/redcross_login.cy.js\""
+  },
+  "devDependencies": {
+    "bcryptjs": "^2.4.3",
+    "cypress": "^15.6.0",
+    "mysql2": "^3.5.2"
+  }
+}
